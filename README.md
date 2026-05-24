@@ -2,19 +2,21 @@
 
 **Baseball Analytics · Sports Data Science · Business Intelligence**
 MBA Candidate, Pace University — Lubin School of Business (Aug 2026)
-SABR Analytics Certification Level IV · Google Data Analytics Certificate
+SABR Analytics Certification Level IV (in progress) · Google Data Analytics Certificate
+
+📍 New York, NY · 🎯 Targeting full-time sports analytics & baseball operations roles — open June 2026
 
 ---
 
 ## Featured Projects
 
-### ⚾ MLB Baseball Analytics Dashboard — Live Streamlit App
-Full-stack sabermetrics pipeline pulling live 2024 FanGraphs data via pybaseball. 13 interactive Plotly visualizations across pitcher, hitter, and team dashboards. Includes a Regression Alert system that automatically flags pitchers where |ERA − FIP| > 0.75.
+### ⚾ MLB Strikeout Research Dashboard — Live Backtest
+A custom MLB pitcher strikeout projection model evaluated against actual Statcast outcomes. 69 starts across 60 pitchers (May 15–23, 2026). MAE 1.86 Ks, +0.51 K bias. Honest model evaluation with calibration, residual decomposition, and per-pitcher drill-down.
 
-🔗 **Live app:** [mlb-analytics-jordan.streamlit.app](https://mlb-analytics-jordan.streamlit.app)
-📁 **Repo:** [mlb-analytics-dashboard-2024](https://github.com/jordantaylorkurzweil-hash/mlb-analytics-dashboard-2024)
+🔗 **Live app:** [mlb-k-research-dashboard.streamlit.app](https://mlb-k-research-dashboard-ezjkgwabdjfpu2hv6c2xcs.streamlit.app/)
+📁 **Repo:** [mlb-k-research-dashboard](https://github.com/jordantaylorkurzweil-hash/mlb-k-research-dashboard)
 
-`Python` `Streamlit` `Plotly` `pybaseball` `pandas` `Statcast`
+`Python` `Streamlit` `Plotly` `pybaseball` `Statcast` `Model Evaluation`
 
 ---
 
@@ -24,6 +26,25 @@ Machine learning model predicting pitch quality from physical Statcast character
 📁 **Repo:** [stuff-plus-model](https://github.com/jordantaylorkurzweil-hash/stuff-plus-model)
 
 `Python` `scikit-learn` `HistGradientBoosting` `Statcast` `Feature Engineering` `pybaseball`
+
+---
+
+### 📊 MLB Baseball Analytics Dashboard — Live Streamlit App
+Full-stack sabermetrics pipeline pulling live 2024 FanGraphs data via pybaseball. 13 interactive Plotly visualizations across pitcher, hitter, and team dashboards. Includes a Regression Alert system that automatically flags pitchers where |ERA − FIP| > 0.75.
+
+🔗 **Live app:** [mlb-analytics-jordan.streamlit.app](https://mlb-analytics-jordan.streamlit.app)
+📁 **Repo:** [mlb-analytics-dashboard-2024](https://github.com/jordantaylorkurzweil-hash/mlb-analytics-dashboard-2024)
+
+`Python` `Streamlit` `Plotly` `pybaseball` `pandas` `Statcast`
+
+---
+
+### 🗄️ Baseball Analytics SQL Portfolio
+15 annotated SQL queries across 4 skill tiers — Statcast & FanGraphs-style schema. Front-office framing from foundational aggregations to multi-step CTEs and window functions.
+
+📁 **Repo:** [baseball-analytics-sql](https://github.com/jordantaylorkurzweil-hash/baseball-analytics-sql)
+
+`SQL` `CTEs` `Window Functions` `Analytics Engineering`
 
 ---
 
@@ -52,5 +73,6 @@ stack = {
 
 ## Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan_Kurzweil-blue)](https://www.linkedin.com/in/jordan-kurzweil-159599366/)
-[![Streamlit](https://img.shields.io/badge/Live_App-Streamlit-red)](https://mlb-analytics-jordan.streamlit.app)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Jordan_Kurzweil-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/jordantkurzweil)
+[![K Research](https://img.shields.io/badge/Live_App-K_Research_Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://mlb-k-research-dashboard-ezjkgwabdjfpu2hv6c2xcs.streamlit.app/)
+[![MLB Dashboard](https://img.shields.io/badge/Live_App-MLB_Dashboard-FF4B4B?style=flat&logo=streamlit&logoColor=white)](https://mlb-analytics-jordan.streamlit.app)
